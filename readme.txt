@@ -56,8 +56,8 @@ readme: bReader支援ツール for Windows
 　　途中でアプリケーションの強制終了ダイアログなどが開いても、気にせず閉じて下さい。
 　　
 5.　全部のPDFの処理が終了すると、変換の成功数・失敗数が表示されます。
-　　　jpeg変換に失敗したPDFは、　$(destJPGFolderRoot)/jpgFailed　以下に
-　　　brc処理に失敗したPDFは、　$(destJPGFolderRoot)/brcFailed　以下に待避されます。
+　　　$(destJPGFolderRoot)/jpgFailed　以下にjpeg変換に失敗したファイルの名前のフォルダが残ります。
+　　　$(destJPGFolderRoot)/brcFailed　以下にbrc処理に失敗したファイルの名前のフォルダが残ります。
 　　　
 6.　必要に応じて3以降の処理を繰り返します。
 　　
@@ -83,7 +83,6 @@ readme: bReader支援ツール for Windows
 ・いくつかのファイルで、jpegファイル群の解析途中でbrc.exeが強制終了するようです。
 　　この場合、別のPDF→jpeg変換ツールを使うと、brc処理に成功する可能性があります。
 　　　　（例）pdf-xchange viewer
-　　　　		窓の杜での紹介記事：http://www.forest.impress.co.jp/library/software/pdfxchange/
 
 
 ■その他のメモ
